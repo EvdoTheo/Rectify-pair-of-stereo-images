@@ -10,4 +10,21 @@ Rectifying images includes some pre process steps in order to retrieve informati
   1) cv2.initUndistortRectifyMap
   2) cv2.remap
 
-
+direcroty tree:
+ dataset:
+  
+ ---> right_rectified
+        0.jpg
+        1.jpg
+  
+ ---> left_rectified
+          0.jpg
+          1.jpg
+  
+ ---> right_rectified
+          0.jpg
+          1.jpg
+  
+ ---> left_rectified
+          0.jpg
+          1.jpg
