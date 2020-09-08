@@ -56,9 +56,9 @@ def rectify_left(img_path):
 
 
 if __name__ == "__main__":
-    #insert path of dataset 
+    #insert path of dataset directory which includes the subdirectories
     # r=root, d=directories, f = files
-    for r,d,f in os.walk('/media/evdo/INTENSO/SBC_diplomatiki_backup/dataset'):
+    for r,d,f in os.walk('/path/of/dataset/directory'):
         for files in f:
             if files.endswith(".jpg"):
                 if r.split('/')[-1]== 'right_unrectified':
